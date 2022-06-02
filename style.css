@@ -126,3 +126,28 @@ body{
 .app-download:nth-child(2){
     background-image: url('img/botao-gplay.png');
 }
+
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width:90%;
+    }
+}
+
+@media (max-width: 650px){
+    .instagram-wrapper{
+        width:90%;
+    }
+
+    .insta-phone{
+        display:none
+    }
+
+    .insta-login{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+        background-color: #f3f3f3;
+    }
+}
