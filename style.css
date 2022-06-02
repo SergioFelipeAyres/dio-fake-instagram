@@ -127,6 +127,31 @@ body{
     background-image: url('img/botao-gplay.png');
 }
 
+.sem-face{
+    background-color: #b2dffc;
+    width: 300px;
+    text-align: center;
+}
+
+.form{
+    background-color: #fafafa;
+    padding: 8px;
+    border:3px solid #dbdbdb;
+    border-radius: 4px;
+    outline: none;
+    width: 300px;
+}
+
+.form::placeholder{
+    color: #8e8e9c;
+    font-size: 10pt;
+}
+
+.facebook{
+    color:#385185;
+    margin-top: 1rem;
+}
+
 @media (max-width: 1024px){
     .instagram-wrapper{
         width:90%;
