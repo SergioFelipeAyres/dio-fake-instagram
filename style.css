@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;;
     font-size: 14px;
 }
 
@@ -148,8 +148,13 @@ body{
 }
 
 .facebook{
-    color:#385185;
     margin-top: 1rem;
+}
+
+.esqueceusenha{
+    margin-top: 8px;
+    color: #475993;
+    font-size: 8pt;
 }
 
 @media (max-width: 1024px){
